@@ -1,0 +1,42 @@
+
+
+body {
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 70vw;
+    min-height: 50vh;
+    margin-top: 5%;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.value {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+}
+
+.number-hailstones {
+    font-size: 20px;
+    font-weight: 500;
+}
+.canvas-wrapper {
+    position: relative;
+    width: 100%;
+}
